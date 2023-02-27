@@ -13,7 +13,7 @@ function calculoCondicoesPagamento(valor) {
 	} else if (aux > 6) {
 		parcelas = 6; // aqui é aplicada a restrição da quantidade máxima permitida para o número de parcelas
 	} else {
-		parcelas = aux; // nesse caso, o número de parcelas cálculas anteriormente é menor que o máximo permitido
+		parcelas = aux; // nesse caso, o número de parcelas calculada anteriormente é menor que o máximo permitido
 	}
 
 	const valorParcela = valor / parcelas;
